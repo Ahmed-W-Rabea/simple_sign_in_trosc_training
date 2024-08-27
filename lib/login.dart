@@ -92,3 +92,23 @@ class _LoginState extends State<Login> {
     );
   }
 }
+
+
+
+//another way to add background image
+
+// home: Scaffold(
+//   appBar: AppBar(
+//       title: Text('Set Background Image'),
+//   ),
+//   body: DecoratedBox(
+//           decoration: BoxDecoration(
+//             image: DecorationImage(
+//                 image: AssetImage("images/img.png"), fit: BoxFit.cover),
+//           ),
+//           child: Center(
+//               child: FlutterLogo(
+//             size: 200,
+//           )),
+//         ),
+// ),
